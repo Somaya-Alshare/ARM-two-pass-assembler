@@ -1,0 +1,17 @@
+; this code for testing
+.org 0x1000
+mov r2,#5
+add r1,r2,r3
+str r3,[r2]
+.space 16
+.word 0x5,15,0x15
+.byte 3,0xff,8,6,7
+.hword 1,2,3
+loop: mla r1,r2,r3,r4
+b label3
+label2: cmp r2,r3,lsl r5
+add r1,r2,r3,lsl #0x10
+label3: swp r0,r1,[r2]
+swpb r2,r3,[r4]
+label4: swine 0x123456
+mul r1,r2,r3

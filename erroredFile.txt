@@ -1,0 +1,9 @@
+.org 0x1000
+good: bic soo
+.spacke 17
+good: add r1,r2,r3
+bic r1,r2,r4
+ase go
+.word akk,b,23
+b label1
+mov r5,r4

@@ -1,4 +1,4 @@
-two-pass-assembler
+ARM-two-pass-assembler
 ==================
 
-A Python-based two pass assembler which converts assembly language to machine-dependent object code.
+A Python-based two pass assembler which converts assembly language to machine object code.
